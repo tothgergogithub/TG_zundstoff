@@ -7,6 +7,8 @@ body{
     width: 100%;
     background-color: white;
     height: 100px;
+    
+    
 
 
 }
@@ -33,5 +35,27 @@ body{
     display: flex;
     color: orange;
     list-style: none;
-    padding: 30px;
+    text-align: center;
+    padding-right: 240px;
+
+}
+li{
+    margin: 20px;
+}
+#intro{
+    border: solid 1px white;
+    color: black;
+}
+#fejlec_kep{
+    background-image: url(képek/header.jpg);
+    height: 550px;
+    background-size: cover;
+    color: white;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.lista{
+    display: block;
 }
