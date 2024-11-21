@@ -52,10 +52,21 @@ li{
     background-size: cover;
     color: white;
     margin: auto;
-}
-ul{
-    list-style: none;
+    text-align: center;
+    
 }
 .lista{
-    display: block;
+    list-style: none;
+    padding-top: 5%;
+    font-size: 40px;
+
+
 }
+#intro_2{
+    font-size: 1.2rem;
+    padding-top: 15px;
+    
+    border: solid, 1px;
+    
+}
+
