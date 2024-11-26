@@ -63,10 +63,15 @@ li{
 
 }
 #intro_2{
-    font-size: 1.2rem;
-    padding-top: 15px;
+    font-size: 15px;
     
-    border: solid, 1px;
-    
+    margin: auto;
+    width: 10%;
+    border: groove;
+    border-radius: 10px;
+
+    height: 40px;
+    padding-top: 10px;
 }
+
 
