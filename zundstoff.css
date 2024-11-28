@@ -73,5 +73,52 @@ li{
     height: 40px;
     padding-top: 10px;
 }
+#bemutat{
+    height: 550px;
+    display: flex;
 
+}
+#bemutat_bal{
+    width: 45%;
 
+}
+#bemutat_bal_kep{
+    width: 600px;
+    height: 300px;
+    margin-top: 30%;
+    margin-right: 5%;
+    float: right;
+    
+}
+#bemutat_jobb{
+    width: 55%;
+    display: block;
+    
+}
+#bemutat_jobb_cim{
+    float: left;
+    margin-top: 15%;
+}
+#bemutat_jobb_szoveg{
+    width: 95%;
+    margin-top: 25%;
+}
+#narancs_tabla{
+    border: solid;
+    border-color: orange;
+    width: 180px;
+    margin: auto;
+}
+#tabla_szoveg{
+    color: orange;
+    text-align: center;
+    
+}
+#menu{
+    height: 300px;
+    background-color: rgb(186,225,234);
+}
+#menu_felso{
+    
+    text-align: center;    
+}
