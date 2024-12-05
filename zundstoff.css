@@ -109,8 +109,9 @@ li{
 #narancs_tabla{
     border: solid;
     border-color: orange;
-    width: 180px;
+    width: 150px;
     margin: auto;
+    border-radius: 5px;
 }
 #tabla_szoveg{
     color: orange;
@@ -118,7 +119,7 @@ li{
     
 }
 #menu{
-    height: 300px;
+    height: 480px;
     background-color: rgb(186,225,234);
     
 }
@@ -140,7 +141,8 @@ li{
 #kozep_panel{
     margin-left: 35;
     width: 30%;
-    
+    margin: auto;
+    padding-bottom: 5%;
 }
 #basics{
     color: var(--orange-color);
@@ -148,5 +150,81 @@ li{
 }
 #jobb_panel{
     float: right;
-    width: 31%;
+    width: 25%;
+    
+}
+#strength{
+    color: orange;
+}
+#menu_tabla{
+    border: solid;
+    margin: auto;
+    width: 150px;
+    border-color: orange;
+    border-radius: 5px;
+}
+#menu_tabla_szoveg{
+    color: orange;
+    text-align: center;
+}
+#edzes_keret{
+    height: 500px;
+    display: flex;
+
+}
+
+#edzes_bal{
+    width: 40%;
+}
+#edzes_bal_kep{
+    height: 400px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+#edzes_jobb{
+    
+    width: 60%;
+    float: right;
+}
+#edzes_jobb_szoveg{
+    width: 90%;
+    line-height: 21px;
+
+}
+#edzes_jobb_tabla{
+    border: solid;
+    
+    width: 150px;
+    border-color: orange;
+    border-radius: 5px;
+    margin-top: 5%;
+
+}
+#edzes_tabla_szoveg{
+    color: orange;
+    text-align: center;
+
+}
+#preise_keret{
+    height: 300px;
+    background-color: rgb(186,225,234);
+}
+#preise_felso_cim{
+    text-align: center;
+}
+#preise_felso_szoveg{
+    text-align: center;
+}
+#preise_felso_tabla{
+    border: solid;
+    margin: auto;
+    width: 180px;
+    border-color: orange;
+    border-radius: 5px;
+    
+}
+#preise_tabla_szoveg{
+    text-align: center;
+    color: orange;
 }
