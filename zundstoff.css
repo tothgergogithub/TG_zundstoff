@@ -1,10 +1,16 @@
 :root{
     --orange-color:orange;
 }
+html{
+    margin-left: -10px;
+}
 body{
     background-color: white;
     width: 100%;
     overflow-x: hidden;    
+}
+h2{
+    color: var(--orange-color);
 }
 #fejlec{
     width: 100%;
@@ -207,7 +213,7 @@ li{
 
 }
 #preise_keret{
-    height: 300px;
+    height: 450px;
     background-color: rgb(186,225,234);
 }
 #preise_felso_cim{
@@ -227,4 +233,117 @@ li{
 #preise_tabla_szoveg{
     text-align: center;
     color: orange;
+}
+#preise_also{
+    display: flex;
+}
+#preise_bal{
+    width: 33%;
+    padding-left: 2%;
+}
+#preise_bal_cim{
+    color: var(--orange-color);
+}
+#preise_bal_szoveg{
+    line-height: 21px;
+
+}
+#preise_bal_tabla{
+    border: solid;
+    border-color: orange;
+    border-radius: 5px;
+    width: 220px;
+    margin: auto;
+    margin-top: 5%;
+}
+#preise_bal_tabla_szoveg{
+    color: orange;
+    text-align: center;
+}
+#preise_kozep{
+    width: 33%;
+    
+}
+#preise_kozep_szoveg{
+    line-height: 21px;
+}
+#preise_kozep_tabla{
+    border: solid;
+    border-color: orange;
+    border-radius: 5px;
+    width: 220px;
+    margin: auto;
+    margin-top: 5%;
+}
+#preise_kozep_tabla_szoveg{
+    color: orange;
+    text-align: center;
+}
+#preise_jobb{
+    width: 33%;
+    margin-left: 5px;
+
+}
+#preise_jobb_szoveg{
+    width: 85%;
+}
+#preise_jobb_tabla{
+    border: solid;
+    border-color: orange;
+    border-radius: 5px;
+    width: 160px;
+    margin: auto;
+    margin-top: 5%;
+}
+#preise_jobb_tabla_szoveg{
+    
+    color: orange;
+    text-align: center;
+}
+#harom_kep_keret{
+    display: flex;
+    height: 400px;
+
+
+}
+#harom_kep_keret_bal{
+    width: 33%;
+    background-image: url(képek/start.jpg);
+    height: 100%;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+#harom_kep_bal_szoveg{
+    text-align: center;
+
+}
+#starte_heute{
+    color: white;
+}
+#harom_kep_bal_cim{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+#harom_kep_kozep{
+    width: 33%;
+}
+
+#harom_kep_kozep_kep{
+    background-image: url(képek/szemelyi.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#harom_kep_jobb{
+    width: 33%;
+}
+#harom_kep_jobb_kep{
+    background-image: url(képek/tartos.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
