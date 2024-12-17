@@ -322,11 +322,13 @@ li{
 }
 #starte_heute{
     color: white;
+    margin-top: 5%;
+    font-size: 50px;
 }
 #harom_kep_bal_cim{
     color: white;
     text-align: center;
-    margin-top: 10%;
+    
 }
 #harom_kep_kozep{
     width: 33%;
@@ -346,4 +348,26 @@ li{
     height: 100%;
     background-position: center;
     background-size: cover;
+}
+#bal_szoveg{
+    color: white;
+    width: 75%;
+    margin: auto;
+    line-height: 21px;
+}
+#harom_kep_bal_tabla{
+    margin: auto;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    width: 160px;
+    
+    margin-top: 5%;
+}
+#harom_kep_bal_tabla_szoveg{
+    text-align: center;
+    color: white;
+}
+#harom_kep_kozep_szoveg{
+    
 }
