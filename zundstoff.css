@@ -332,23 +332,35 @@ li{
 }
 #harom_kep_kozep{
     width: 33%;
-}
-
-#harom_kep_kozep_kep{
     background-image: url(képek/szemelyi.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
 }
+
+
+#harom_kep_bal_tabla_szoveg{
+    text-align: center;
+    color: white;
+}
+#harom_kep_kozep_szoveg{
+    text-align: center;
+    color: white;
+}
+#gruppentraining{
+    
+    
+    margin-top: 5%;
+    font-size: 50px;
+}
 #harom_kep_jobb{
     width: 33%;
-}
-#harom_kep_jobb_kep{
     background-image: url(képek/tartos.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
 }
+
 #bal_szoveg{
     color: white;
     width: 75%;
@@ -363,11 +375,4 @@ li{
     width: 160px;
     
     margin-top: 5%;
-}
-#harom_kep_bal_tabla_szoveg{
-    text-align: center;
-    color: white;
-}
-#harom_kep_kozep_szoveg{
-    
 }
