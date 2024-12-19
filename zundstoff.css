@@ -9,6 +9,7 @@ body{
     width: 100%;
     overflow-x: hidden;    
 }
+
 h2{
     color: var(--orange-color);
 }
@@ -139,7 +140,7 @@ li{
 #bal_panel{
     float: left;
     width: 33%;
-    margin-right: 2%;
+    padding-left: 2%;
 }
 #wod_cim{
     color: var(--orange-color);
@@ -157,6 +158,7 @@ li{
 #jobb_panel{
     float: right;
     width: 25%;
+    padding-right: 4%;
     
 }
 #strength{
@@ -318,12 +320,13 @@ li{
 
 #harom_kep_bal_szoveg{
     text-align: center;
+    color: white;
 
 }
 #starte_heute{
     color: white;
     margin-top: 5%;
-    font-size: 50px;
+    font-size: 40px;
 }
 #harom_kep_bal_cim{
     color: white;
@@ -346,12 +349,30 @@ li{
 #harom_kep_kozep_szoveg{
     text-align: center;
     color: white;
+    
+}
+#harom_kep_kozeptabla{
+    margin: auto;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    width: 110px;
+    
+    margin-top: 5%;
+}
+#harom_kep_kozeptabla_szoveg{
+    text-align: center;
+    color: white;
 }
 #gruppentraining{
     
     
     margin-top: 5%;
-    font-size: 50px;
+    font-size: 40px;
+}
+#Werde_szoveg{
+    width: 75%;
+    margin: auto;
 }
 #harom_kep_jobb{
     width: 33%;
@@ -360,7 +381,19 @@ li{
     background-position: center;
     background-size: cover;
 }
-
+#harom_kep_jobb_szoveg{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+#personal_training{
+    font-size: 40px;
+}
+#arbeite{
+    width: 75%;
+    margin: auto;
+}
 #bal_szoveg{
     color: white;
     width: 75%;
